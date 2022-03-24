@@ -1,0 +1,1541 @@
+[
+	{
+		"name": "targets",
+		"path": "/targets",
+		"title": "Целевые группы",
+		"slaves": [
+			{
+				"path": "/schools",
+				"title": "Школьникам",
+				"slaves": [
+					{
+						"path": "/learn",
+						"title": "Учеба",
+						"slaves": [
+							{
+								"url": "https://new.guap.ru/dods",
+								"title": "Дни открытых дверей ГУАП"
+							},
+							{
+								"url": "https://new.guap.ru/indo/cdp/dovuz#dovuz9",
+								"title": "Подготовительные курсы для поступающих на программы СПО (9 класс)"
+							},
+							{
+								"url": "https://new.guap.ru/indo/cdp/dovuz#dovuz11",
+								"title": "Подготовительные курсы для поступающих на программы высшего образования (10-11 класс)"
+							},
+							{
+								"url": "http://olymp.guap.ru",
+								"title": "Интернет-олимпиады ГУАП"
+							},
+							{
+								"url": "https://new.guap.ru/fspo",
+								"title": "Факультет среднего профессионального образования"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Научное творчество",
+						"slaves": [
+							{
+								"url": "https://new.guap.ru/i01/avionika",
+								"title": "«Авионика» - Юношеская аэрокосмическая школа высоких технологий"
+							},
+							{
+								"url": "https://guap.ru/poliklass",
+								"title": "Политехнический класс ГУАП"
+							},
+							{
+								"url": "https://sciencework.ru/index.php/shkola-orion/priglashaem-starsheklassnikov",
+								"title": "Школа инновационных технологий «ОРИОН»"
+							}
+						]
+					}
+				]
+			},
+			{
+				"url": "https://priem.guap.ru/",
+				"title": "<b>Поступающим 2022</b>"
+			},
+			{
+				"path": "/students",
+				"title": "Обучающимся",
+				"slaves": [
+					{
+						"path": "/name",
+						"title": "Учебный процесс",
+						"slaves": [
+							{
+								"url": "https://guap.ru/oiak/maintask_mail",
+								"title": "Как получить адрес электронной почтовой службы университета"
+							},
+							{
+								"url": "https://guap.ru/standart/doc",
+								"title": "Бланки заданий дипломных работ"
+							},
+							{
+								"url": "https://guap.ru/standart/doc",
+								"title": "Титульные листы для оформления практики, а также курсовых, контрольных и лабораторных работ"
+							},
+							{
+								"url": "https://guap.ru/standart/doc_nir",
+								"title": "Документация для научной работы"
+							},
+							{
+								"url": "https://guap.ru/ric",
+								"title": "Требования к оформлению статей молодежной секции"
+							},
+							{
+								"url": "https://guap.ru/standart/doc",
+								"title": "Пример оформления курсовой работы (проекта)"
+							},
+							{
+								"url": "http://rasp.guap.ru",
+								"title": "Расписание занятий ВО"
+							},
+							{
+								"url": "https://new.guap.ru/fspo/uch",
+								"title": "Расписание занятий СПО"
+							},
+							{
+								"url": "http://lib.aanet.ru",
+								"title": "Библиотека"
+							},
+							{
+								"url": "http://raspsess.guap.ru",
+								"title": "Расписание экзаменов"
+							},
+							{
+								"url": "https://guap.ru/sveden/common#schedule",
+								"title": "Режим занятий обучающихся"
+							},
+							{
+								"url": "http://lms.guap.ru/new",
+								"title": "Единая электронная образовательная среда ГУАП"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Наука",
+						"slaves": [
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Аспирантура"
+							},
+							{
+								"url": "https://guap.ru/standart/doc_nir",
+								"title": "Документация для научной работы"
+							},
+							{
+								"url": "https://guap.ru/unids",
+								"title": "Учебно-научно исследовательская деятельность студентов"
+							},
+							{
+								"url": "http://dissov.guap.ru/registry",
+								"title": "Защиты диссертаций"
+							},
+							{
+								"url": "https://guap.ru/science/grants",
+								"title": "Конкурсы и гранты"
+							},
+							{
+								"url": "https://guap.ru/ric",
+								"title": "Требования к оформлению статей молодежной секции"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Возможности",
+						"slaves": [
+							{
+								"url": "https://guap.ru/job",
+								"title": "Трудоустройство"
+							},
+							{
+								"url": "https://guap.info/ru/programmy",
+								"title": "Обучение за рубежом"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Информация",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/common#address",
+								"title": "Адреса основных корпусов и общежитий ГУАП"
+							},
+							{
+								"url": "https://guap.ru/med",
+								"title": "Информация медицинского центра"
+							},
+							{
+								"url": "https://new.guap.ru/indo",
+								"title": "Информация для студентов заочной формы обучения"
+							},
+							{
+								"url": "https://guap.ru/zdorov",
+								"title": "Условия охраны здоровья обучающихся"
+							},
+							{
+								"url": "https://guap.ru/dom",
+								"title": "Общежития"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Досуг",
+						"slaves": [
+							{
+								"url": "https://guap.ru/creative",
+								"title": "Творческие студии"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Финансовые вопросы",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/paid_edu#order",
+								"title": "Способы оплаты обучения или общежития"
+							},
+							{
+								"url": "https://guap.ru/eif/pol_usl",
+								"title": "Платные образовательные услуги"
+							},
+							{
+								"url": "https://guap.ru/sveden/grants",
+								"title": "Приказы о размерах стипендий"
+							},
+							{
+								"url": "https://guap.ru/eif/komiss",
+								"title": "Перевод с контракта на бюджет"
+							},
+							{
+								"url": "https://guap.ru/sveden/grants",
+								"title": "Стипендии и иные виды материальной поддержки"
+							},
+							{
+								"url": "https://guap.ru/eif/price",
+								"title": "Стоимость обучения"
+							},
+							{
+								"url": "https://guap.ru/eif/form_d",
+								"title": "Формы договоров на оказание платных образовательных услуг"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Справочник студента",
+						"slaves": [
+							{
+								"url": "https://fs.guap.ru/docs/common/prav-vr-obuch.pdf",
+								"title": "Правила внутреннего распорядка обучающихся"
+							},
+							{
+								"url": "https://docs.guap.ru/smk/3.151.pdf",
+								"title": "Положение о порядке и основаниях восстановления и перевода обучающихся ГУАП"
+							},
+							{
+								"url": "https://docs.guap.ru/smk/3.76.pdf",
+								"title": "Положение о текущем контроле успеваемости и промежуточной аттестации студентов и аспирантов ГУАП, обучающихся по образовательным программам высшего образования."
+							},
+							{
+								"url": "https://docs.guap.ru/smk/3.77.pdf",
+								"title": "Положение о текущем контроле успеваемости и промежуточной аттестации студентов, обучающихся по образовательным программам среднего профессионального образования в ГУАП."
+							},
+							{
+								"url": "https://guap.ru/zdorov",
+								"title": "Условия охраны здоровья обучающихся"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Подразделения",
+						"slaves": [
+							{
+								"url": "https://new.guap.ru/urmisk",
+								"title": "Управление по работе с молодежью и стратегическим коммуникациям"
+							},
+							{
+								"url": "https://new.guap.ru/urmisk/depts",
+								"title": "Отдел социально-воспитательной работы"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Отдел аспирантуры и докторантуры"
+							},
+							{
+								"url": "https://guap.ru/job",
+								"title": "Отдел содействия трудоустройству выпускников и обучающихся ГУАП"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "/employees",
+				"title": "Сотрудникам",
+				"slaves": [
+					{
+						"path": "/name",
+						"title": "Работа",
+						"slaves": [
+							{
+								"url": "https://guap.ru/oiak/maintask_mail",
+								"title": "Адрес электронной почтовой службы университета"
+							},
+							{
+								"url": "http://pro.guap.ru",
+								"title": "Личный кабинет преподавателя"
+							},
+							{
+								"url": "https://guap.ru/fillpos",
+								"title": "Замещение должностей в ГУАП (директора институтов, деканы факультетов, заведующие кафедрами, профессорско-преподавательский состав, научные работники)"
+							},
+							{
+								"url": "https://guap.ru/us/zv",
+								"title": "Соискателям ученых званий профессора и доцента"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Документы",
+						"slaves": [
+							{
+								"url": "https://guap.ru/standart/doc_nir",
+								"title": "Документация для научной работы"
+							},
+							{
+								"url": "https://guap.ru/localacts",
+								"title": "Перечень локальных нормативных актов, ознакомление с которыми обязательно для работников ГУАП"
+							},
+							{
+								"url": "https://guap.ru/eif/pol_o_trud",
+								"title": "Положение и приказы об оплате труда"
+							},
+							{
+								"url": "docs/pr_guap_05-488-20.pdf",
+								"title": "Правила внутреннего трудового распорядка ГУАП"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/common/cdog.pdf",
+								"title": "Коллективный договор"
+							},
+							{
+								"url": "https://guap.ru/ric",
+								"title": "О правилах подготовки рукописей к печати"
+							},
+							{
+								"url": "https://guap.ru/eif/pol_o_trud",
+								"title": "О достижении показателей и критериев оценки эффективности деятельности работников ГУАП"
+							},
+							{
+								"url": "https://new.guap.ru/ohr",
+								"title": "Результаты проведения специальной оценки условий труда в ГУАП"
+							},
+							{
+								"url": "https://guap.ru/ric",
+								"title": "Требования к оформлению статей научных конференций ГУАП"
+							},
+							{
+								"url": "https://new.guap.ru/el_trud",
+								"title": "Электронная трудовая книжка"
+							}
+						]
+					},
+					{
+						"path": "/name",
+						"title": "Социальное обеспечение и досуг",
+						"slaves": [
+							{
+								"url": "https://guap.ru/med",
+								"title": "Информация медицинского центра"
+							},
+							{
+								"url": "https://guap.ru/profsotr",
+								"title": "Профсоюзная организация работников"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "/graduates",
+				"title": "Выпускникам",
+				"slaves": [
+					{
+						"path": "/name",
+						"title": "Информация",
+						"slaves": [
+							{
+								"url": "https://guap.ru/avlg",
+								"title": "Ассоциация выпускников ЛИАП – ГУАП"
+							},
+							{
+								"url": "https://guap.ru/job",
+								"title": "Центр содействия трудоустройству выпускников и обучающихся ГУАП"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "sections",
+		"path": "/sections",
+		"title": "Разделы",
+		"slaves": [
+			{
+				"path": "/main",
+				"title": "Университет",
+				"slaves": [
+					{
+						"path": "/about",
+						"title": "О вузе",
+						"desc": "25 января 1941 года было принято постановление о создании Ленинградского авиационного института. Эта дата является официальным днем рождения нашего вуза.",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/greeting",
+								"title": "Приветствие ректора"
+							},
+							{
+								"path": "/mission",
+								"title": "Миссия"
+							},
+							{
+								"url": "https://guap.ru/prioritet2030",
+								"title": "Программа развития ФГАОУ ВО ГУАП на 2021–2030 годы"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/common/strategy_2024.pdf",
+								"title": "Концепция программы развития ГУАП на 2020–2024 годы"
+							},
+							{
+								"path": "/fip",
+								"title": "Федеральная инновационная площадка"
+							},
+							{
+								"url": "https://guap.ru/sveden",
+								"title": "Сведения об образовательной организации"
+							},
+							{
+								"url": "https://guap.ru/sveden/struct",
+								"title": "Структура организации"
+							},
+							{
+								"url": "https://guap.ru/sveden/common#reqs",
+								"title": "Реквизиты ГУАП"
+							},
+							{
+								"url": "https://guap.ru/eif",
+								"title": "Финансово-экономическая деятельность"
+							},
+							{
+								"url": "https://guap.ru/history",
+								"title": "История вуза"
+							},
+							{
+								"path": "/dods",
+								"title": "Дни открытых дверей"
+							},
+							{
+								"path": "/anticor",
+								"title": "Противодействие коррупции"
+							},
+							{
+								"path": "/smi",
+								"title": "СМИ о ГУАП"
+							},
+							{
+								"url": "https://download.guap.ru/local/_tels2020-01.pdf",
+								"title": "Телефонный справочник ГУАП (только из внутренней сети университета)"
+							},
+							{
+								"path": "/brand",
+								"title": "Фирменный стиль"
+							}
+						]
+					},
+					{
+						"path": "/uchdepts",
+						"title": "Институты и&nbsp;факультеты",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/i01",
+								"title": "Институт аэрокосмических приборов и&nbsp;систем (институт&nbsp;1)"
+							},
+							{
+								"path": "/i02",
+								"title": "Институт радиотехники, электроники и&nbsp;связи (институт&nbsp;2)"
+							},
+							{
+								"path": "/i03",
+								"title": "Институт инновационных технологий в&nbsp;электромеханике и&nbsp;робототехнике (институт&nbsp;3)"
+							},
+							{
+								"path": "/i04",
+								"title": "Институт вычислительных систем и&nbsp;программирования (институт&nbsp;4)"
+							},
+							{
+								"path": "/i05",
+								"title": "Институт информационных систем и&nbsp;защиты информации (институт&nbsp;5)"
+							},
+							{
+								"path": "/iibmp",
+								"title": "Институт фундаментальной подготовки и&nbsp;технологических инноваций (институт ФПТИ)"
+							},
+							{
+								"url": "https://hf-guap.ru",
+								"title": "Гуманитарный факультет (факультет&nbsp;6)"
+							},
+							{
+								"path": "/vuc",
+								"title": "Военный учебный центр"
+							},
+							{
+								"path": "/i08",
+								"title": "Институт технологий предпринимательства (институт&nbsp;8)"
+							},
+							{
+								"path": "/f09",
+								"title": "Юридический факультет (факультет&nbsp;9)"
+							},
+							{
+								"path": "/indo",
+								"title": "Институт непрерывного и&nbsp;дистанционного образования (вечернее и&nbsp;заочное обучение) (институт&nbsp;10)"
+							},
+							{
+								"path": "/fdpo",
+								"title": "Факультет дополнительного профессионального образования (факультет&nbsp;11)"
+							},
+							{
+								"path": "/fspo",
+								"title": "Факультет среднего профессионального образования (факультет&nbsp;12)"
+							},
+							{
+								"url": "https://ifguap.ru/",
+								"title": "Ивангородский филиал ГУАП"
+							}
+						]
+					},
+					{
+						"path": "/02",
+						"title": "Органы управления",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/employees",
+								"title": "Администрация"
+							},
+							{
+								"path": "/ns",
+								"title": "Наблюдательный совет"
+							},
+							{
+								"url": "https://guap.ru/us",
+								"title": "Ученый совет"
+							}
+						]
+					},
+					{
+						"path": "/structdepts",
+						"title": "Структурные подразделения",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/ens",
+								"title": "Инженерная школа"
+							},
+							{
+								"url": "https://guap.ru/dom",
+								"title": "Отдел по работе в общежитиях"
+							},
+							{
+								"url": "https://guap.ru/quality",
+								"title": "Отдел управления качеством образования"
+							},
+							{
+								"url": "https://guap.ru/job",
+								"title": "Отдел содействия трудоустройству выпускников и обучающихся ГУАП"
+							},
+							{
+								"url": "https://priem.guap.ru",
+								"title": "Приемная комиссия"
+							},
+							{
+								"url": "https://guap.ru/ric",
+								"title": "Редакционно-издательский центр ГУАП"
+							},
+							{
+								"url": "https://guap.ru/uch",
+								"title": "Учебное управление"
+							},
+							{
+								"url": "https://guap.ru/it",
+								"title": "Управление цифрового развития"
+							},
+							{
+								"path": "/urmisk",
+								"title": "Управление по работе с молодежью и стратегическим коммуникациям"
+							},
+							{
+								"url": "https://guap.ru/science",
+								"title": "Центр координации научных исследований"
+							},
+							{
+								"url": "https://guap.ru/wsr",
+								"title": "Центр развития профессиональных компетенций"
+							},
+							{
+								"url": "https://guap.ru/sgo",
+								"title": "Штаб гражданской обороны"
+							}
+						]
+					},
+					{
+						"path": "/socials",
+						"title": "Общественные организации",
+						"img": "https://media.guap.ru/696/obshchestvennye-organizatsii.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/profsotr",
+								"title": "Первичная профсоюзная организация работников ГУАП"
+							},
+							{
+								"url": "https://vk.com/ppos_guap",
+								"title": "Профком студентов и аспирантов"
+							},
+							{
+								"url": "https://vk.com/studsovguap",
+								"title": "Студенческий совет"
+							},
+							{
+								"url": "https://guap.ru/avlg",
+								"title": "Ассоциация выпускников ЛИАП–ГУАП"
+							}
+						]
+					},
+					{
+						"path": "/docs",
+						"title": "Документы",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/document",
+								"title": "Устав"
+							},
+							{
+								"url": "https://guap.ru/sveden/document",
+								"title": "Коллективный договор"
+							},
+							{
+								"url": "https://guap.ru/sveden/document",
+								"title": "Лицензия и аккредитация"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/common/strategy_2024.pdf",
+								"title": "Концепция программы развития федерального государственного автономного образовательного учреждения высшего образования «Санкт-Петербургский государственный университет аэрокосмического приборостроения» на 2020–2024 годы"
+							},
+							{
+								"url": "https://docs.guap.ru/guap/2021/strategy-dt.pdf",
+								"title": "Стратегия цифровой трансформации Федерального государственного автономного образовательного учреждения высшего образования «Санкт-петербургский государственный университет аэрокосмического приборостроения"
+							},
+							{
+								"url": "https://guap.ru/quality/lna",
+								"title": "Регламентирующие документы и стандарты организации"
+							},
+							{
+								"url": "https://guap.ru/standart",
+								"title": "Нормативная документация для оформления научных работ, бланки заданий, титульные листы, госты"
+							},
+							{
+								"url": "https://guap.ru/sveden/document",
+								"title": "Отчеты о самообследовании"
+							},
+							{
+								"url": "https://guap.ru/sveden/budget",
+								"title": "План финансово-хозяйственной деятельности"
+							},
+							{
+								"url": "https://guap.ru/eif/pol_o_trud",
+								"title": "Положение и приказы об оплате труда"
+							},
+							{
+								"url": "https://guap.ru/sveden/grants",
+								"title": "Положение и приказы о стипендиальном обеспечении"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/2021/pr_guap_2021-003-17_05-86-21_pril-1.pdf",
+								"title": "Положение о сайте ГУАП"
+							},
+							{
+								"url": "https://guap.ru/eif/razm_z_arch",
+								"title": "Протоколы заседаний комиссии по осуществлению закупок"
+							},
+							{
+								"url": "https://guap.ru/sveden/budget",
+								"title": "Финансовые отчеты"
+							}
+						]
+					},
+					{
+						"path": "/archives",
+						"title": "Достижения",
+						"img": "https://media.guap.ru/696/8.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/awards",
+								"title": "Достижения, награды, благодарности"
+							},
+							{
+								"path": "/sport",
+								"title": "Спортивные достижения"
+							},
+							{
+								"path": "/pubs?nodes=124",
+								"title": "Научные достижения студентов"
+							}
+						]
+					},
+					{
+						"path": "/books",
+						"title": "Издания",
+						"img": "https://media.guap.ru/696/izdaniya.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "http://i-us.ru",
+								"title": "Научный журнал «Информационно-управляющие системы»"
+							},
+							{
+								"url": "http://www.salogistics.ru/index.php?option=com_content&task=view&id=50&Itemid=83",
+								"title": "Научный журнал «Системный анализ и логистика»"
+							},
+							{
+								"url": "https://guap.ru/emtp",
+								"title": "Научный журнал «Актуальные проблемы экономики и управления»"
+							},
+							{
+								"url": "http://einai.ru",
+								"title": "Научное рецензируемое периодическое сетевое издание «EINAI: Проблемы философии и теологии»"
+							},
+							{
+								"url": "http://fikio.ru",
+								"title": "Научный сетевой журнал «Философия и гуманитарные науки в информационном обществе»"
+							},
+							{
+								"path": "/f09",
+								"title": "Научно-практический журнал «Закон. Право. Государство»"
+							},
+							{
+								"path": "/urmisk/vpolet",
+								"title": "Газета «В полет»"
+							}
+						]
+					},
+					{
+						"path": "/infrastructure",
+						"title": "Инфраструктура",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "http://lib.aanet.ru",
+								"title": "Библиотека"
+							},
+							{
+								"url": "https://guap.ru/dom",
+								"title": "Общежития"
+							},
+							{
+								"path": "/sport",
+								"title": "Спортивные комплексы"
+							},
+							{
+								"url": "https://guap.ru/med",
+								"title": "Медицинский центр ГУАП"
+							},
+							{
+								"url": "https://guap.ru/ric",
+								"title": "Редакционно-издательский центр ГУАП"
+							},
+							{
+								"url": "https://guap.ru/sveden/objects",
+								"title": "Столовые"
+							},
+							{
+								"url": "https://guap.ru/cit",
+								"title": "Центр информационных технологий"
+							},
+							{
+								"url": "http://sputnik.guap.ru",
+								"title": "Карта корпуса на Большой Морской 67"
+							}
+						]
+					},
+					{
+						"path": "/persons",
+						"title": "Персоналии",
+						"img": "https://media.guap.ru/696/prepodavateli.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://pro.guap.ru",
+								"title": "Преподаватели"
+							},
+							{
+								"url": "https://guap.ru/sveden/employees",
+								"title": "Руководство"
+							}
+						]
+					},
+					{
+						"path": "/contacts",
+						"title": "Контактная информация",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/common#address",
+								"title": "Адреса учебных корпусов и общежитий"
+							},
+							{
+								"url": "https://guap.ru/sveden/common#reqs",
+								"title": "Реквизиты"
+							},
+							{
+								"url": "https://guap.ru/sveden/common#schedule",
+								"title": "Режим и график работы"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "/education",
+				"title": "Образование",
+				"slaves": [
+					{
+						"path": "06",
+						"title": "Дистанционное",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/indo",
+								"title": "Институт непрерывного и дистанционного образования"
+							},
+							{
+								"url": "https://guap.ru/unesco",
+								"title": "Кафедра ЮНЕСКО «Дистанционное инженерное образование»"
+							},
+							{
+								"url": "https://lms.guap.ru/new",
+								"title": "Система дистанционного обучения"
+							}
+						]
+					},
+					{
+						"path": "01",
+						"title": "Довузовское",
+						"img": "https://media.guap.ru/696/dovuzovskoe.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/indo/cdp",
+								"title": "Подготовительные курсы"
+							},
+							{
+								"url": "https://olymp.guap.ru",
+								"title": "Олимпиады ГУАП"
+							},
+							{
+								"url": "https://sciencework.ru/index.php/shkola-orion/priglashaem-starsheklassnikov",
+								"title": "Школа инновационных технологий «ОРИОН»"
+							},
+							{
+								"path": "/i01/avionika",
+								"title": "«Авионика» - Юношеская аэрокосмическая школа высоких технологий"
+							},
+							{
+								"url": "https://guap.ru/poliklass",
+								"title": "Политехнический класс ГУАП"
+							}
+						]
+					},
+					{
+						"path": "02",
+						"title": "Среднее профессиональное",
+						"img": "https://media.guap.ru/696/srednee.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/fspo",
+								"title": "Факультет среднего профессионального образования"
+							},
+							{
+								"path": "/fspo/edu",
+								"title": "Перечень специальностей и направлений подготовки специалистов со средним профессиональным образованием"
+							},
+							{
+								"path": "/fspo/podg",
+								"title": "Подготовительные курсы ФСПО"
+							},
+							{
+								"path": "/fspo/contacts",
+								"title": "Контактная информация"
+							},
+							{
+								"path": "/fspo/priem",
+								"title": "Приемная комиссия ФСПО"
+							},
+							{
+								"path": "/fspo/priem#docs",
+								"title": "Документы для поступления"
+							},
+							{
+								"path": "/fspo/priem",
+								"title": "Количество мест для приема (очная форма)"
+							},
+							{
+								"path": "/fspo/priem",
+								"title": "Правила приема"
+							}
+						]
+					},
+					{
+						"path": "03",
+						"title": "Высшее",
+						"img": "https://media.guap.ru/696/vysshee.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/education/tab1#level1",
+								"title": "Программы бакалавриата"
+							},
+							{
+								"url": "https://guap.ru/sveden/education/tab1#level2",
+								"title": "Программы магистратуры"
+							},
+							{
+								"url": "https://guap.ru/sveden/education/tab1#level3",
+								"title": "Программы специалитета"
+							},
+							{
+								"path": "/indo",
+								"title": "Заочное и очно-заочное обучение"
+							},
+							{
+								"url": "https://guap.ru/sveden/edustandarts",
+								"title": "Образовательные стандарты"
+							},
+							{
+								"url": "https://priem.guap.ru/",
+								"title": "Приемная комиссия"
+							},
+							{
+								"url": "https://priem.guap.ru/",
+								"title": "Правила приема"
+							},
+							{
+								"url": "https://guap.ru/sveden/paid_edu",
+								"title": "Платные услуги"
+							},
+							{
+								"url": "https://guap.ru/sveden/vacant",
+								"title": "Вакантные места для приема (перевода)"
+							}
+						]
+					},
+					{
+						"path": "04",
+						"title": "Аспирантура и&nbsp;докторантура",
+						"img": "https://media.guap.ru/696/aspirantura-i-dok.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Отдел аспирантуры и докторантуры"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Перечень направлений подготовки"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Правила приема"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Документы для поступления"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Вступительные испытания"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Количество мест для приема (бюджет)"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Прием на обучение в аспирантуре на контрактной основе"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Контактная информация"
+							},
+							{
+								"url": "http://dissov.guap.ru",
+								"title": "Диссертационные советы"
+							}
+						]
+					},
+					{
+						"path": "05",
+						"title": "Дополнительное профессиональное",
+						"img": "https://media.guap.ru/696/aspirantura-i-dok.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "http://fdpo.guap.ru",
+								"title": "Факультет дополнительного профессионального образования"
+							},
+							{
+								"url": "http://fdpo.guap.ru",
+								"title": "Профессиональная переподготовка"
+							},
+							{
+								"url": "http://fdpo.guap.ru",
+								"title": "Повышение квалификации"
+							}
+						]
+					},
+					{
+						"path": "07",
+						"title": "Международное",
+						"img": "https://media.guap.ru/696/mezhdunarodnoe.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.info/ru/programmy",
+								"title": "Программы обмена и стипендиальные программы обучения за рубежом"
+							},
+							{
+								"url": "https://guap.info/ru/mezhdunarodnaya-deyatelnost",
+								"title": "Партнерские программы"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/2017/rasp_guap_2017-006-28_11-45-17.pdf",
+								"title": "О правилах оформления приглашений на въезд в Российскую Федерацию иностранных граждан"
+							}
+						]
+					},
+					{
+						"path": "08",
+						"title": "Обучение для иностранцев",
+						"img": "https://media.guap.ru/696/mezhdunarodnoe-2.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.info",
+								"title": "Департамент международной деятельности"
+							},
+							{
+								"url": "https://guap.info/ru/po",
+								"title": "Подготовительное отделение"
+							},
+							{
+								"url": "https://guap.info/ru/napravleniya-podgotovki-i-stoimost-obucheniya-v-guap-dlya-inostrannyx-grazhdan",
+								"title": "Направления подготовки и стоимость обучения в ГУАП для иностранных граждан"
+							},
+							{
+								"url": "https://guap.info/ru/usloviya",
+								"title": "Условия поступления и учёбы"
+							},
+							{
+								"url": "https://guap.info/ru/oformlenie-viz",
+								"title": "Оформление виз"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/2017/rasp_guap_2017-006-28_11-45-17.pdf",
+								"title": "О правилах оформления приглашений на въезд в Российскую Федерацию иностранных граждан"
+							}
+						]
+					},
+					{
+						"path": "09",
+						"title": "Финансовые вопросы",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/paid_edu#order",
+								"title": "Способы оплаты обучения или общежития"
+							},
+							{
+								"url": "https://guap.ru/eif/pol_usl",
+								"title": "Перевод с контракта на бюджет. Положение о платных образовательных услугах"
+							},
+							{
+								"url": "https://guap.ru/sveden/grants",
+								"title": "Стипендии и иные виды материальной поддержки"
+							},
+							{
+								"url": "https://guap.ru/eif/price",
+								"title": "Стоимость обучения"
+							},
+							{
+								"url": "https://guap.ru/eif/form_d",
+								"title": "Формы договоров на оказание платных образовательных услуг"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "/science",
+				"title": "Наука",
+				"slaves": [
+					{
+						"path": "01",
+						"title": "Научная деятельность",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/science/sciact",
+								"title": "Основные научные направления"
+							},
+							{
+								"url": "https://guap.ru/science/sciact-projects",
+								"title": "Результаты научной работы"
+							},
+							{
+								"url": "https://guap.ru/science/sciact-industry",
+								"title": "Взаимодействие с промышленностью"
+							},
+							{
+								"url": "https://guap.ru/science/innovs",
+								"title": "Технологические платформы"
+							}
+						]
+					},
+					{
+						"path": "02",
+						"title": "Научно-исследовательские подразделения",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://vkist.guap.ru/",
+								"title": "Институт высокопроизводительных компьютерных и сетевых технологий"
+							},
+							{
+								"path": "/i02/depts",
+								"title": "Институт проблем волновой электроники"
+							},
+							{
+								"url": "http://iiaat.guap.ru",
+								"title": "Международный институт передовых аэрокосмических технологий"
+							},
+							{
+								"path": "/",
+								"title": "Научно-исследовательский отдел биотехнических проблем"
+							},
+							{
+								"url": "http://portal.guap.ru/?n=citt&p=start",
+								"title": "Международный российско-французский центр трансфера технологий"
+							}
+						]
+					},
+					{
+						"path": "03",
+						"title": "Наука для молодежи",
+						"img": "https://media.guap.ru/696/nauka-dlya-molodezhi.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/unids",
+								"title": "Учебно-научно-исследовательская деятельность студентов"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Аспирантура и докторантура"
+							},
+							{
+								"url": "https://guap.ru/ens",
+								"title": "Инженерная школа"
+							},
+							{
+								"url": "http://spie.guap.ru",
+								"title": "Студенческое отделение SPIE в ГУАП"
+							},
+							{
+								"url": "http://isastuds.guap.ru",
+								"title": "Студенческая секция ISA"
+							},
+							{
+								"url": "https://hf-guap.ru/k63/sno/",
+								"title": "Студенческое научное общество кафедры иностранных языков"
+							},
+							{
+								"url": "https://sciencework.ru/index.php/shkola-orion/priglashaem-starsheklassnikov",
+								"title": "Школа инновационных технологий «ОРИОН»"
+							},
+							{
+								"path": "/i01/avionika",
+								"title": "Юношеская аэрокосмическая школа высоких технологий «Авионика»"
+							},
+							{
+								"url": "https://weconf-guap.ru/",
+								"title": "Международная молодежная научная конференция «Волновая электроника и ее применения в информационных и телекоммуникационных системах»"
+							},
+							{
+								"url": "https://msnk.guap.ru",
+								"title": "Международная студенческая научная конференция ГУАП"
+							},
+							{
+								"url": "https://guap.ru/science/grants",
+								"title": "Конкурсы и гранты"
+							},
+							{
+								"url": "http://isastuds.guap.ru/Espc.aspx",
+								"title": "Европейский конкурс студенческих работ"
+							},
+							{
+								"url": "https://guap.ru/knip",
+								"title": "Конкурс научно-исследовательских проектов ГУАП"
+							}
+						]
+					},
+					{
+						"path": "05",
+						"title": "Научная инфраструктура",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/science",
+								"title": "Администрация"
+							},
+							{
+								"url": "http://dissov.guap.ru",
+								"title": "Диссертационные советы"
+							},
+							{
+								"url": "https://guap.ru/ens",
+								"title": "Инженерная школа"
+							},
+							{
+								"url": "https://guap.ru/science/innovs",
+								"title": "Малые инновационные предприятия"
+							},
+							{
+								"url": "https://guap.ru/aspira",
+								"title": "Отдел аспирантуры и докторантуры"
+							},
+							{
+								"url": "https://guap.ru/science",
+								"title": "Центр координации научных исследований"
+							}
+						]
+					},
+					{
+						"path": "06",
+						"title": "Полезная информация",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "http://lib.aanet.ru",
+								"title": "Библиотека"
+							},
+							{
+								"url": "https://guap.ru/science/grants",
+								"title": "Конкурсы и гранты"
+							},
+							{
+								"url": "https://guap.ru/standart",
+								"title": "Нормативная документация для оформления научных работ, бланки заданий, титульные листы, ГОСТы"
+							},
+							{
+								"url": "https://guap.ru/standart/doc_nir",
+								"title": "Оформление отчетов о НИР"
+							}
+						]
+					},
+					{
+						"path": "07",
+						"title": "Научные издания ГУАП",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "http://i-us.ru",
+								"title": "Научный журнал «Информационно-управляющие системы»"
+							},
+							{
+								"url": "http://www.salogistics.ru/index.php?option=com_content&task=view&id=50&Itemid=83",
+								"title": "Научный журнал «Системный анализ и логистика»"
+							},
+							{
+								"url": "https://guap.ru/emtp",
+								"title": "Научный журнал «Актуальные проблемы экономики и управления»"
+							},
+							{
+								"url": "http://einai.ru",
+								"title": "Научное рецензируемое периодическое сетевое издание «EINAI: Проблемы философии и теологии»"
+							},
+							{
+								"url": "http://fikio.ru",
+								"title": "Научный сетевой журнал «Философия и гуманитарные науки в информационном обществе»"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "/cooperation",
+				"title": "Сотрудничество",
+				"slaves": [
+					{
+						"path": "01",
+						"title": "Международное сотрудничество",
+						"img": "https://media.guap.ru/696/mezhdunarodnoe.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "http://isa.aanet.ru/rus/",
+								"title": "Представительство ISA в Российской Федерации"
+							},
+							{
+								"url": "https://guap.ru/unesco/mipo",
+								"title": "Международный институт планирования образования (МИПО)"
+							},
+							{
+								"url": "https://guap.info",
+								"title": "Департамент международной деятельности"
+							},
+							{
+								"url": "http://iiaat.guap.ru",
+								"title": "International Institute for Advanced Aerospace Technologies (IIAAT)"
+							},
+							{
+								"url": "http://tempus.guap.ru",
+								"title": "Проект «TEMPUS»"
+							},
+							{
+								"url": "https://guap.ru/unesco",
+								"title": "Кафедра ЮНЕСКО"
+							},
+							{
+								"url": "https://fruct.org",
+								"title": "Программа FRUCT Российско-финского межуниверситетского сотрудничества в области телекоммуникаций"
+							},
+							{
+								"url": "https://fs.guap.ru/docs/2017/rasp_guap_2017-006-28_11-45-17.pdf",
+								"title": "О правилах оформления приглашений на въезд в Российскую Федерацию иностранных граждан"
+							}
+						]
+					},
+					{
+						"path": "02",
+						"title": "Российское партнерство",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/science/sciact-industry",
+								"title": "Взаимодействие с промышленностью"
+							},
+							{
+								"url": "http://cnau.ru",
+								"title": "Консорциум аэрокосмических вузов"
+							},
+							{
+								"url": "https://guap.ru/eif/pr_kom",
+								"title": "Комиссия по осуществлению закупок"
+							},
+							{
+								"url": "https://guap.ru/eif/inf_dog",
+								"title": "Предложения к сотрудничеству"
+							},
+							{
+								"url": "https://guap.ru/eif/mp",
+								"title": "Перечень товаров, работ, услуг, закупаемых у малых предприятий"
+							},
+							{
+								"url": "https://guap.ru/job/foremployers",
+								"title": "Работодателям"
+							},
+							{
+								"url": "https://guap.ru/job",
+								"title": "Трудоустройство выпускников"
+							}
+						]
+					},
+					{
+						"path": "03",
+						"title": "Партнеры ГУАП",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/sch_partners",
+								"title": "Перечень школ-партнеров"
+							},
+							{
+								"url": "http://www.credinform.ru",
+								"title": "Информационное агентство Credinform"
+							},
+							{
+								"url": "http://www.businessstudio.ru",
+								"title": "Система бизнес-моделирования Business Studio"
+							},
+							{
+								"url": "http://vakant.ru",
+								"title": "Сайт поиска работы Vakant.ru"
+							}
+						]
+					}
+				]
+			},
+			{
+				"path": "/other",
+				"title": "Вне учебы",
+				"slaves": [
+					{
+						"path": "01",
+						"title": "Социальное обеспечение",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/sveden/grants",
+								"title": "Стипендии и иные виды материальной поддержки"
+							},
+							{
+								"path": "/urmisk/depts",
+								"title": "Социальное обеспечение сотрудников"
+							}
+						]
+					},
+					{
+						"path": "02",
+						"title": "Отделы, объединения, советы",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"path": "/urmisk",
+								"title": "Управление по работе с молодежью и стратегическим коммуникациям"
+							},
+							{
+								"url": "https://guap.ru/job",
+								"title": "Отдел содействия трудоустройству выпускников и обучающихся ГУАП"
+							},
+							{
+								"url": "https://guap.ru/dom",
+								"title": "Отдел по работе с общежитиями ГУАП"
+							},
+							{
+								"url": "https://guap.ru/profsotr",
+								"title": "Профсоюзная организация работников"
+							},
+							{
+								"url": "https://guap.ru/creative",
+								"title": "Творческие студии"
+							}
+						]
+					},
+					{
+						"path": "04",
+						"title": "Творческие студии",
+						"img": "https://media.guap.ru/696/studii.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://guap.ru/creative/video",
+								"title": "Видеостудия ГУАП"
+							},
+							{
+								"url": "https://guap.ru/creative/kvn",
+								"title": "КВН-ГУАП"
+							},
+							{
+								"url": "https://guap.ru/creative/teatre",
+								"title": "Театральная студия ГУАП"
+							},
+							{
+								"url": "https://guap.ru/creative/press",
+								"title": "Пресс-центр ГУАП"
+							},
+							{
+								"url": "https://guap.ru/creative/foto",
+								"title": "Фотостудия ГУАП"
+							},
+							{
+								"url": "https://guap.ru/creative/krylo",
+								"title": "Крылья ГУАП. Музыкальный класс"
+							},
+							{
+								"url": "https://guap.ru/creative/tanec",
+								"title": "AeroCosmicDancers — танцевальная студия"
+							},
+							{
+								"url": "https://guap.ru/creative/radio",
+								"title": "Радио ГУАП"
+							},
+							{
+								"url": "https://guap.ru/creative/show",
+								"title": "Студия организации мероприятий"
+							},
+							{
+								"url": "https://guap.ru/creative/show1",
+								"title": "Студия технической поддержки мероприятий"
+							},
+							{
+								"url": "https://guap.ru/creative/rebels",
+								"title": "Группа поддержки. REBELS"
+							},
+							{
+								"url": "https://guap.ru/creative/muz",
+								"title": "МУЗ ГУАП"
+							}
+						]
+					},
+					{
+						"path": "05",
+						"title": "Профориентация",
+						"img": "https://media.guap.ru/696/obshchestvennye-organizatsii.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://sciencework.ru/index.php/shkola-orion/priglashaem-starsheklassnikov",
+								"title": "Школа инновационных технологий «ОРИОН»"
+							},
+							{
+								"url": "https://guap.ru/poliklass",
+								"title": "Политехнический класс ГУАП"
+							},
+							{
+								"path": "/i01/avionika",
+								"title": "«Авионика» - Юношеская аэрокосмическая школа высоких технологий"
+							}
+						]
+					},
+					{
+						"path": "08",
+						"title": "Медиатека",
+						"img": "https://media.guap.ru/696/1.jpg?s=xs",
+						"slaves": [
+							{
+								"url": "https://www.youtube.com/guapru",
+								"title": "Видеоканал на Youtube"
+							},
+							{
+								"path": "/urmisk/press",
+								"title": "Пресс-центр"
+							},
+							{
+								"path": "/urmisk/vpolet",
+								"title": "Газета «В Полёт»"
+							},
+							{
+								"path": "/urmisk/press#tab_press_2",
+								"title": "Газета «Спутник студента»"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

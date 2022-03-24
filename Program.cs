@@ -1,27 +1,59 @@
-var builder = WebApplication.CreateBuilder(args);
+using Ans.Net6.Web;
+using Ans.Net6.Web.Services;
+using NLog;
+using NLog.Web;
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+var logger = NLog.LogManager
+	.Setup()
+	.LoadConfigurationFromAppSettings()
+	.GetCurrentClassLogger();
+logger.Debug("Program Init");
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+try
 {
-	app.UseExceptionHandler("/Home/Error");
-	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-	app.UseHsts();
+
+	// builder
+	var builder = WebApplication.CreateBuilder(args);
+
+	builder.Logging.ClearProviders();
+	builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+	builder.Host.UseNLog();
+
+	builder.Services.AddAnsNet6Web();
+	builder.Services.AddSingleton<INavProviderService, JsonNavProviderService>();
+
+	builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+	builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
+	// app
+	var app = builder.Build();
+	if (app.Environment.IsDevelopment())
+	{
+		//app.UseAnsNet6WebErrors();
+		app.UseDeveloperExceptionPage();
+		app.UseStatusCodePages();
+	}
+	else
+	{
+		app.UseAnsNet6WebErrors();
+		app.UseHsts();
+	}
+	app.UseHttpsRedirection();
+	app.UseStaticFiles();
+	app.UseRouting();
+	app.UseEndpoints(o =>
+	{
+		o.MapControllers();
+		o.MapRazorPages();
+		o.MapControllerRoute("Nodes", "{*path}",
+			new { controller = "Nodes", action = "Index", path = "start" });
+	});
+	app.Run();
+
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-	name: "default",
-	pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();
+catch (Exception exception)
+{
+	logger.Error(exception, "Stopped program because of exception");
+	throw;
+}
+finally { NLog.LogManager.Shutdown(); }
