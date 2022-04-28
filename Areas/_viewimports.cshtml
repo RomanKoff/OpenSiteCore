@@ -1,15 +1,15 @@
-﻿@using OpenSiteCore
-
-@using Ans.Net6.Common
+﻿@using Ans.Net6.Common
 @using Ans.Net6.Web
 @using Ans.Net6.Web.Nodes
+@using Ans.Net6.Web.Providers
 @using Ans.Net6.Web.Services
 @using System.Text
 @using Microsoft.AspNetCore.Html
-@inject ISiteContext Site
-@inject INodeContext Node
-@inject IPageContext Page
+
+@using OpenSiteCore
+
 @inject ICurrentContext Current
-@inject INavProviderService NavProvider
+
 @addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
 @addTagHelper "*, Ans.Net6.Web"
+@addTagHelper "*, OpenSiteCore"

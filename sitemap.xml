@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data xmlns="Ans.Net6.Web.Sitemap.xsd">
+
+	<item def="main|#Site">
+		<item def="node1|Node 1"/>
+		<item def="node2|Node 2"/>
+		<item def="node3|Node 3"/>
+	</item>
+
+</data>

@@ -1,0 +1,50 @@
+﻿@{
+	Current.SiteMapInit("main");
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title></title>
+</head>
+<body>
+
+	<header>
+		HEADER
+		@if (Site.AllowNavigator)
+		{
+			<hr />
+			<ul>
+				@foreach (var item1 in Site.Navigator)
+				{
+					string s1 = (item1.Name == Current.Node.Name) ? "active" : "default";
+					<li class="@s1"><a href="@Url.Content($"~/{item1.Name}")">@item1.ShortTitle.ToHtml()</a></li>
+				}
+			</ul>
+		}
+		@if (Node.AllowNavigator)
+		{
+			<hr />
+			<ul>
+				@foreach (var item1 in Node.Navigator)
+				{
+					string s1 = (item1.IsActive) ? "active" : "default";
+					<li class="@s1"><a href="@Url.Content($"{item1.Href}")">@item1.InnerHtml.ToHtml()</a></li>
+				}
+			</ul>
+		}
+		<hr />
+	</header>
+
+	<main role="main">
+		@RenderBody()
+	</main>
+
+	<footer>
+		<hr />
+		FOOTER
+	</footer>
+
+</body>
+</html>

@@ -7,7 +7,6 @@ namespace OpenSiteCore.Controllers
 	public class NodesController
 		: _NodesController_Base
 	{
-
 		public NodesController(
 			ILogger<_NodesController_Base> logger,
 			ICurrentContext currentContext,
@@ -15,13 +14,6 @@ namespace OpenSiteCore.Controllers
 			: base(logger, currentContext, viewRender)
 		{
 		}
-
-
-		public override void CurrentNodeRelease()
-		{
-			base.CurrentNodeRelease();
-		}
-
 	}
 
 }

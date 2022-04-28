@@ -5,12 +5,14 @@
 		<Nullable>disable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 
+		<SatelliteResourceLanguages>ru-RU,en-US</SatelliteResourceLanguages>
 		<CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+		<!-- 
 		<RazorCompileOnBuild>false</RazorCompileOnBuild>
 		<RazorCompileOnPublish>false</RazorCompileOnPublish>
-		<SatelliteResourceLanguages>ru-RU</SatelliteResourceLanguages>
+		-->
 
-		<Version>1.0.1</Version>
+		<VersionPrefix>1.1.0</VersionPrefix>
 		<Authors>Roman Koff</Authors>
 		<Copyright>$(Authors)</Copyright>
 		<RepositoryUrl>https://github.com/RomanKoff/OpenSiteCore</RepositoryUrl>
@@ -18,12 +20,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Ans.Net6.Common" Version="1.0.2" />
-		<PackageReference Include="Ans.Net6.Web" Version="1.0.1" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.4" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-		<PackageReference Include="NLog" Version="4.7.14" />
+		<PackageReference Include="NLog" Version="4.7.15" />
 		<PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\_Libs\Ans.Net6.Common\Ans.Net6.Common.csproj" />
+		<ProjectReference Include="..\_Libs\Ans.Net6.Web\Ans.Net6.Web.csproj" />
 	</ItemGroup>
 
 </Project>

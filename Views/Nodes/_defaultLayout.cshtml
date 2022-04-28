@@ -1,0 +1,18 @@
+﻿@{
+	Layout = "Layouts/_Base";
+
+	Current.NodeMapInit(
+		new NodeMapItem("Start"),
+		new NodeMapItem("page1|Page 1"),
+		new NodeMapItem("page2|Page 2")
+	);
+}
+
+<p>DEFAULT LAYOUT</p>
+
+<ul>
+	<li><a href="~/httperror">Http Error Sample</a></li>
+	<li><a href="~/servererror">Server Error Sample</a></li>
+</ul>
+
+@RenderBody()

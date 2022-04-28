@@ -1,5 +1,5 @@
 using Ans.Net6.Web;
-using Ans.Net6.Web.Services;
+using Ans.Net6.Web.Providers;
 using NLog;
 using NLog.Web;
 
@@ -7,37 +7,40 @@ var logger = NLog.LogManager
 	.Setup()
 	.LoadConfigurationFromAppSettings()
 	.GetCurrentClassLogger();
-logger.Debug("Program Init");
+logger.Info("OpenSiteCore Init");
 
 try
 {
 
-	// builder
 	var builder = WebApplication.CreateBuilder(args);
 
 	builder.Logging.ClearProviders();
 	builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
 	builder.Host.UseNLog();
 
-	builder.Services.AddAnsNet6Web();
-	builder.Services.AddSingleton<INavProviderService, JsonNavProviderService>();
+	builder.Services.AddAnsServices();
+	builder.Services.AddSingleton<ISiteMapProvider, SiteMap_XmlProvider>();
 
 	builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 	builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
-	// app
+
 	var app = builder.Build();
+
 	if (app.Environment.IsDevelopment())
 	{
-		//app.UseAnsNet6WebErrors();
-		app.UseDeveloperExceptionPage();
-		app.UseStatusCodePages();
+		//app.UseDeveloperExceptionPage();
+		//app.UseStatusCodePages();
+		app.UseAnsErrors();
 	}
 	else
 	{
-		app.UseAnsNet6WebErrors();
+		app.UseAnsErrors();
+		//app.UseDeveloperExceptionPage();
+		//app.UseStatusCodePages();
 		app.UseHsts();
 	}
+
 	app.UseHttpsRedirection();
 	app.UseStaticFiles();
 	app.UseRouting();
@@ -45,9 +48,9 @@ try
 	{
 		o.MapControllers();
 		o.MapRazorPages();
-		o.MapControllerRoute("Nodes", "{*path}",
-			new { controller = "Nodes", action = "Index", path = "start" });
 	});
+	app.UseAnsNodes();
+
 	app.Run();
 
 }
@@ -56,4 +59,7 @@ catch (Exception exception)
 	logger.Error(exception, "Stopped program because of exception");
 	throw;
 }
-finally { NLog.LogManager.Shutdown(); }
+finally
+{
+	NLog.LogManager.Shutdown();
+}
